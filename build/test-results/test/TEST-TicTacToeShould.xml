@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TicTacToeShould" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-06-30T13:41:36" hostname="Damians-MacBook-Pro.local" time="0.044">
+  <properties/>
+  <testcase name="be_Winner_Player_X_When_Has_Three_Symbols_In_First_Column_Inline" classname="TicTacToeShould" time="0.044"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
