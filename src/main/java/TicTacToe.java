@@ -6,13 +6,6 @@ public class TicTacToe {
     private String lastPlayer;
 
     public TicTacToe() {
-        /*this.board = new String[][]
-                {
-                        {"", "", ""},
-                        {"", "", ""},
-                        {"", "", ""}
-         }; */
-
         this.board = new HashMap<Position, String>();
     }
 
@@ -34,7 +27,20 @@ public class TicTacToe {
         if (winner == null)
             winner = this.determineWinnerByColumn(0);
 
+        if (winner == null)
+            winner = this.determineWinnerDiagonally();
+
         return winner;
+    }
+
+    private String determineWinnerDiagonally() {
+        if (match(Position.create(0, 0), Position.create(1, 1), Position.create(2, 2)))
+            return this.board.get(Position.create(0, 0));
+
+        if (match(Position.create(0, 2), Position.create(1, 1), Position.create(2, 0)))
+            return this.board.get(Position.create(0, 2));
+
+        return null;
     }
 
     private String determineWinnerByColumn(int column) {

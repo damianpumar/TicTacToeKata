@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eabbaae4-8a63-4b59-8e44-81d6e689a50d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PlayerNotAllowedException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Position.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PositionTakenException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TicTacToe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TicTacToeShould.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TicTacToe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TicTacToe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TicTacToeShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TicTacToeShould.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -51,26 +39,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/TicTacToeShould.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="68" column="30" selection-start-line="68" selection-start-column="30" selection-end-line="68" selection-end-column="30" />
+            <state relative-caret-position="739">
+              <caret line="87" lean-forward="true" selection-start-line="87" selection-end-line="87" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/TicTacToe.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="34" column="53" selection-start-line="34" selection-start-column="53" selection-end-line="34" selection-end-column="53" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#match#0;class#TicTacToe#0" />
               </folding>
             </state>
           </provider>
@@ -96,14 +71,15 @@
         <option value="$PROJECT_DIR$/src/test/java/PositionTakenException.java" />
         <option value="$PROJECT_DIR$/src/main/java/PositionTakenException.java" />
         <option value="$PROJECT_DIR$/src/main/java/Position.java" />
-        <option value="$PROJECT_DIR$/src/test/java/TicTacToeShould.java" />
         <option value="$PROJECT_DIR$/src/main/java/TicTacToe.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TicTacToeShould.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="23" />
-    <option name="width" value="720" />
+    <option name="x" value="1794" />
+    <option name="y" value="234" />
+    <option name="width" value="1440" />
     <option name="height" value="819" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -179,13 +155,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.TicTacToeShould.be_Winner_Player_X_When_Has_Three_Symbols_In_First_Column_Inline">
+  <component name="RunManager" selected="Gradle.TicTacToeShould.be_Winner_Player_X_When_Has_Three_Symbols_Inverse_Diagonally_Inline">
     <configuration name="TicTacToeShould" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;TicTacToeShould&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="TicTacToeShould.be_Winner_Player_X_When_Has_Three_Symbols_Diagonally_Inline" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;TicTacToeShould.be_Winner_Player_X_When_Has_Three_Symbols_Diagonally_Inline&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -220,46 +216,6 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="TicTacToeShould.be_Winner_Player_X_When_Has_Three_Symbols_In_First_Row_Inline" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;TicTacToeShould.be_Winner_Player_X_When_Has_Three_Symbols_In_First_Row_Inline&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="TicTacToeShould.be_Winner_Player_X_When_Has_Three_Symbols_In_Second_Row_Inline" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;TicTacToeShould.be_Winner_Player_X_When_Has_Three_Symbols_In_Second_Row_Inline&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
     <configuration name="TicTacToeShould.be_Winner_Player_X_When_Has_Three_Symbols_In_Third_Row_Inline" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -280,13 +236,33 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="TicTacToeShould.be_Winner_Player_X_When_Has_Three_Symbols_Inverse_Diagonally_Inline" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;TicTacToeShould.be_Winner_Player_X_When_Has_Three_Symbols_Inverse_Diagonally_Inline&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.TicTacToeShould.be_Winner_Player_X_When_Has_Three_Symbols_Inverse_Diagonally_Inline" />
+        <item itemvalue="Gradle.TicTacToeShould.be_Winner_Player_X_When_Has_Three_Symbols_Diagonally_Inline" />
         <item itemvalue="Gradle.TicTacToeShould.be_Winner_Player_X_When_Has_Three_Symbols_In_First_Column_Inline" />
         <item itemvalue="Gradle.TicTacToeShould" />
         <item itemvalue="Gradle.TicTacToeShould.be_Winner_Player_X_When_Has_Three_Symbols_In_Third_Row_Inline" />
-        <item itemvalue="Gradle.TicTacToeShould.be_Winner_Player_X_When_Has_Three_Symbols_In_Second_Row_Inline" />
-        <item itemvalue="Gradle.TicTacToeShould.be_Winner_Player_X_When_Has_Three_Symbols_In_First_Row_Inline" />
       </list>
     </recent_temporary>
   </component>
@@ -294,15 +270,6 @@
     <configuration />
   </component>
   <component name="TestHistory">
-    <history-entry file="TicTacToeShould_be_Winner_Player_X_When_Has_Three_Symbols_In_Third_Row_Inline - 2019.06.30 at 15h 22m 36s.xml">
-      <configuration name="TicTacToeShould.be_Winner_Player_X_When_Has_Three_Symbols_In_Third_Row_Inline" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="TicTacToeShould_be_Winner_Player_X_When_Has_Three_Symbols_In_Third_Row_Inline - 2019.06.30 at 15h 23m 13s.xml">
-      <configuration name="TicTacToeShould.be_Winner_Player_X_When_Has_Three_Symbols_In_Third_Row_Inline" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="TicTacToeShould_be_Winner_Player_X_When_Has_Three_Symbols_In_Third_Row_Inline - 2019.06.30 at 15h 23m 29s.xml">
-      <configuration name="TicTacToeShould.be_Winner_Player_X_When_Has_Three_Symbols_In_Third_Row_Inline" configurationId="GradleRunConfiguration" />
-    </history-entry>
     <history-entry file="TicTacToeShould_be_Winner_Player_X_When_Has_Three_Symbols_In_Third_Row_Inline - 2019.06.30 at 15h 24m 08s.xml">
       <configuration name="TicTacToeShould.be_Winner_Player_X_When_Has_Three_Symbols_In_Third_Row_Inline" configurationId="GradleRunConfiguration" />
     </history-entry>
@@ -324,21 +291,30 @@
     <history-entry file="TicTacToeShould_be_Winner_Player_X_When_Has_Three_Symbols_In_First_Column_Inline - 2019.06.30 at 15h 41m 36s.xml">
       <configuration name="TicTacToeShould.be_Winner_Player_X_When_Has_Three_Symbols_In_First_Column_Inline" configurationId="GradleRunConfiguration" />
     </history-entry>
+    <history-entry file="TicTacToeShould_be_Winner_Player_X_When_Has_Three_Symbols_Diagonally_Inline - 2019.07.01 at 09h 24m 57s.xml">
+      <configuration name="TicTacToeShould.be_Winner_Player_X_When_Has_Three_Symbols_Diagonally_Inline" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="TicTacToeShould_be_Winner_Player_X_When_Has_Three_Symbols_Diagonally_Inline - 2019.07.01 at 09h 26m 49s.xml">
+      <configuration name="TicTacToeShould.be_Winner_Player_X_When_Has_Three_Symbols_Diagonally_Inline" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="TicTacToeShould_be_Winner_Player_X_When_Has_Three_Symbols_Inverse_Diagonally_Inline - 2019.07.01 at 09h 27m 57s.xml">
+      <configuration name="TicTacToeShould.be_Winner_Player_X_When_Has_Three_Symbols_Inverse_Diagonally_Inline" configurationId="GradleRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="819" extended-state="6" />
+    <frame x="1440" y="23" width="2560" height="1417" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Favorites" sideWeight="0.5011442" side_tool="true" weight="0.24964234" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49885583" visible="true" weight="0.24964234" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49885583" visible="true" weight="0.13860206" />
       <window_info id="Structure" order="1" sideWeight="0.5020492" side_tool="true" weight="0.24964234" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Build" weight="0.32967034" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3287483" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.18037736" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39889959" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -451,23 +427,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TicTacToeShould.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/TicTacToe.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="68" column="30" selection-start-line="68" selection-start-column="30" selection-end-line="68" selection-end-column="30" />
+        <state relative-caret-position="785">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#176#177#0" expanded="true" />
+            <element signature="e#236#237#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TicTacToe.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/TicTacToeShould.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="34" column="53" selection-start-line="34" selection-start-column="53" selection-end-line="34" selection-end-column="53" />
+        <state relative-caret-position="739">
+          <caret line="87" lean-forward="true" selection-start-line="87" selection-end-line="87" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#match#0;class#TicTacToe#0" />
           </folding>
         </state>
       </provider>
